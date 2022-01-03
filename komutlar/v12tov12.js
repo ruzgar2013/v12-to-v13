@@ -79,10 +79,9 @@ module.exports.run = async (client, message, args) => {
     
     const embed = new Discord.MessageEmbed()
     .addField(
-      `:outbox_tray: V13 Kod:`,
-      `   \`\`\`
-${v13kod}\`\`\` `
-    )
+      `
+${v13kod}
+    `)
 
 
   message.channel.send(embed);
